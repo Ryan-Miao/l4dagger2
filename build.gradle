@@ -1,0 +1,30 @@
+
+
+plugins {
+    id "net.ltgt.apt" version "0.10"
+}
+
+
+repositories {
+    mavenLocal()
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
+    mavenCentral()
+}
+
+group 'com.test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+
+dependencies {
+    compile 'com.google.dagger:dagger:2.x'
+    apt 'com.google.dagger:dagger-compiler:2.x'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
