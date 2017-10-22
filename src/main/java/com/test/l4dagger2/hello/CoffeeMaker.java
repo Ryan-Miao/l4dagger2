@@ -15,6 +15,14 @@ class CoffeeMaker {
         this.pump = pump;
     }
 
+    public Lazy<Heater> getHeater() {
+        return heater;
+    }
+
+    public Pump getPump() {
+        return pump;
+    }
+
     public void brew() {
         heater.get().on();
         pump.pump();

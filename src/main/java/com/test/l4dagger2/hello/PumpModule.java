@@ -1,10 +1,12 @@
 package com.test.l4dagger2.hello;
 
-import dagger.Binds;
 import dagger.Module;
+import dagger.Provides;
 
 @Module
-abstract class PumpModule {
-    @Binds
-    abstract Pump providePump(Thermosiphon pump);
+public class PumpModule {
+    @Provides
+    Pump providePump(Thermosiphon pump){
+        return pump;
+    }
 }

@@ -1,6 +1,7 @@
 package com.test.l4dagger2.hello;
 
 import dagger.Component;
+import dagger.Reusable;
 
 import javax.inject.Singleton;
 
@@ -22,8 +23,5 @@ public class CoffeeApp {
         CoffeeMaker maker();
     }
 
-    public static void main(String[] args) {
-        CoffeeShop coffeeShop = DaggerCoffeeApp_CoffeeShop.builder().build();
-        coffeeShop.maker().brew();
-    }
+
 }
