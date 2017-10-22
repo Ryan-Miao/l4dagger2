@@ -11,6 +11,10 @@ import javax.inject.Singleton;
  *
  * reference: https://google.github.io/dagger/users-guide
  */
+
+/**
+ * @author Ryan Miao
+ */
 public class CoffeeApp {
     @Singleton
     @Component(modules = { DripCoffeeModule.class })
