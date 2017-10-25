@@ -1,5 +1,13 @@
 
+
+
+[![](https://img.shields.io/badge/dagger-2.12-green.svg?style=flat)](https://github.com/google/dagger)
+![](https://img.shields.io/badge/java-1.8-orange.svg)
 [![Build Status](https://travis-ci.org/Ryan-Miao/l4dagger2.svg?branch=master)](https://travis-ci.org/Ryan-Miao/l4dagger2)
+[![Build Status](https://travis-ci.org/Ryan-Miao/l4dagger2.svg?branch=master)](https://travis-ci.org/Ryan-Miao/l4dagger2)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/winsnow/l4dagger/blob/master/LICENSE)
+
+
 
 ![](http://oe20lp6p0.bkt.clouddn.com/blog/2017/dagger/demo-uml.svg)
 
