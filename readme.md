@@ -1,4 +1,5 @@
-[TOC]
+
+[![Build Status](https://travis-ci.org/Ryan-Miao/l4dagger2.svg?branch=master)](https://travis-ci.org/Ryan-Miao/l4dagger2)
 
 ![](http://oe20lp6p0.bkt.clouddn.com/blog/2017/dagger/demo-uml.svg)
 

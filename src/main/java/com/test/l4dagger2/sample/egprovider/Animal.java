@@ -1,4 +1,4 @@
-package com.test.l4dagger2.sample;
+package com.test.l4dagger2.sample.egprovider;
 
 /**
  * @author Ryan Miao

@@ -1,4 +1,4 @@
-package com.test.l4dagger2.sample;
+package com.test.l4dagger2.sample.egprovider;
 
 import javax.inject.Inject;
 
@@ -17,5 +17,9 @@ public class Apple implements Fruit{
     @Override
     public String getName() {
         return quality.getResult() + "苹果";
+    }
+
+    public Quality getQuality() {
+        return quality;
     }
 }

@@ -1,4 +1,4 @@
-package com.test.l4dagger2.sample;
+package com.test.l4dagger2.sample.egprovider;
 
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -23,5 +23,9 @@ public class Monkey implements Animal{
     @Override
     public void eating() {
         System.out.println(getName()+"它正在吃"+fruit.getName());
+    }
+
+    public Fruit getFruit() {
+        return fruit;
     }
 }

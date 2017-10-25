@@ -1,4 +1,4 @@
-package com.test.l4dagger2.sample;
+package com.test.l4dagger2.sample.egprovider;
 
 import dagger.Module;
 import dagger.Provides;
@@ -11,7 +11,7 @@ import javax.inject.Singleton;
  * @date 17-10-21
  */
 @Module
-public class SampleModule {
+class SampleModule {
 
     @Provides
     @Singleton
