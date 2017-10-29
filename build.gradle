@@ -28,7 +28,7 @@ sourceCompatibility = 1.8
 jacocoTestReport {
     reports {
         xml.enabled true
-        html.enabled false
+        html.enabled true
     }
 }
 
